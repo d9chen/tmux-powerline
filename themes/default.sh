@@ -51,8 +51,8 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		"vcs_others 245 0" \
 		"now_playing 234 37" \
 		#"date_day 235 136" \
-		"date 21 0" \
-		"time 21 0 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		"date 33 0" \
+		"time 33 0 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 	)
 fi
