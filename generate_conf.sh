@@ -2,7 +2,7 @@ cd "$(dirname "${BASH_SOURCE}")"
 source themes/default.sh &>/dev/null
 
 function writeTmuxConf() {
-    echo 'set-option -g default-shell `which zsh`
+    echo 'set-option -g default-shell /bin/zsh
 set-option -g status on
 set-option -g status-interval 2
 set-option -g status-utf8 on
